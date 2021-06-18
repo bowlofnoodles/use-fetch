@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "jsx": "react",
+    "declaration": true,
+    "declarationDir": "./lib/types",
+    "outDir": "./lib",
+    "rootDir": "./src",
+    "emitDeclarationOnly": true,
+    "isolatedModules": true,
+    "strict": true,
+    "esModuleInterop": true
+  }
+}

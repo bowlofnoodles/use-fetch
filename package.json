@@ -1,0 +1,57 @@
+{
+  "name": "use-fetch",
+  "version": "1.0.0",
+  "description": "react use-fetch hook",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development rollup -c && tsc",
+    "build": "NODE_ENV=production rollup -c && tsc",
+    "commit": "git-cz",
+    "version": "standard-version -- --release-as"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "fetch",
+    "use-fetch"
+  ],
+  "files": [
+    "/lib"
+  ],
+  "author": {
+    "name": "bowlofnoodles",
+    "email": "huahuazfh@qq.com",
+    "url": "https://github.com/bowlofnoodles"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.14.5",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.7",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rollup": "^2.51.1",
+    "rollup-plugin-uglify": "^6.0.4",
+    "standard-version": "^9.3.0",
+    "typescript": "^4.3.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}
