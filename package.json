@@ -1,5 +1,5 @@
 {
-  "name": "use-fetch",
+  "name": "wolf-use-fetch-hook",
   "version": "1.0.0",
   "description": "react use-fetch hook",
   "main": "lib/index.js",
