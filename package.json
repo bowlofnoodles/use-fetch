@@ -26,6 +26,9 @@
   "maintainers": [
     "jerry_cheung<huahuazfh@qq.com>"
   ],
+  "repositories": [
+    "https://github.com/bowlofnoodles/use-fetch"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.14.5",
