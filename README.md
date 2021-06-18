@@ -1,1 +1,3 @@
-## useFetch Hook
+## use-fetch
+
+react use-fetch hook
