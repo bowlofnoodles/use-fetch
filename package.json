@@ -1,5 +1,5 @@
 {
-  "name": "wolf-use-fetch-hook",
+  "name": "wolf-use-fetch",
   "version": "1.0.0",
   "description": "react use-fetch hook",
   "main": "lib/index.js",
@@ -23,6 +23,7 @@
     "email": "huahuazfh@qq.com",
     "url": "https://github.com/bowlofnoodles"
   },
+  "maintainers": ["jerry_cheung<huahuazfh@qq.com>"],
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.14.5",
