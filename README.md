@@ -64,7 +64,10 @@ const Demo = (props: IProps) => {
 
   const onManual = () => {
     setData({
-      result: 'an_api_url_result'
+      loading: false,
+      data: {
+        result: 'an_api_url_result'
+      }
     })
   };
 
